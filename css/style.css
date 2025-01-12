@@ -1,0 +1,88 @@
+/* Add more detailed styling for the signup and dashboard pages */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff6f61;
+        padding: 10px;
+        color: white;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .signup-container, .login-container {
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px auto;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .signup-container form, .login-container form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form input, form select, form button {
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    form button {
+        background-color: #ff6f61;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    form button:hover {
+        background-color: #e14c44;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    a {
+        color: #ff6f61;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
